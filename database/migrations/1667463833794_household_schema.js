@@ -38,7 +38,7 @@ class HouseholdSchema extends Schema {
 
       table
         .integer('volunteer_id', 4)
-        .nullable()()
+        .nullable()
         .unsigned()
 
       table.string('phone', 20).notNullable()
